@@ -21,7 +21,7 @@ function draw() {
   }
 
 // stroke(1);
- fill(252, 246, 126, 120);
+ fill(199, 229, 181, 120);
  textAlign(CENTER);
  
  var poemFunctions = [poem1, poem2, poem3,poem4,poem5,poem6,poem7,poem8,poem9,poem10];
@@ -60,12 +60,12 @@ function poem5(){
 }
 
 function poem6(){
-  textSize(120);
+  textSize(115);
   text("what you need is insane", width/2, height/2);
 }
 
 function poem7(){
-  textSize(120);
+  textSize(115);
   text("what you need is easy", width/2, height/2);
 }
 
