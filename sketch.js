@@ -25,7 +25,7 @@ function draw() {
  textAlign(CENTER);
  
  var poemFunctions = [poem1, poem2, poem3,poem4,poem5,poem6,poem7,poem8,poem9,poem10];
- if (millis() - lastTimeChanged >= 2000) {
+ if (millis() - lastTimeChanged >= 2500) {
     poemIndex = poemIndex + 1;
     if(poemIndex == poemFunctions.length) poemIndex = 0;
     lastTimeChanged = millis();
@@ -35,11 +35,13 @@ function draw() {
 }
 
 function poem1() {
+  fill(199, 229, 255, 120);
   textSize(120);
   text("i know what you need",width/2, height/2);
 }
 
 function poem2(){
+  fill(199, 229, 181, 120);
   textSize(120);
   text("give up checking", width/2, height/2);
 }
@@ -60,7 +62,7 @@ function poem5(){
 }
 
 function poem6(){
-  textSize(115);
+  textSize(110);
   text("what you need is insane", width/2, height/2);
 }
 
@@ -75,7 +77,7 @@ function poem8(){
 }
 
 function poem9(){
-  textSize(90);
+  textSize(70);
   text("drop to your knees then go lower", width/2, height/2);
 }
 
